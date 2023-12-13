@@ -33,19 +33,19 @@
     <main id="contact">
         <div class="contact-container">
             <h2>contact me</h2>
-            <form class="contact-form" role="form">
-                <label>Your Name</label>
-                <input type="name" placeholder="Full Name">
+            <form action="send_email.php" method="POST" class="contact-form" role="form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Full Name">
                 <br>
-                <label>Your Email</label>
-                <input type="email" placeholder="Email Address">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Email Address">
                 <br>
-                <label>Subject</label>
-                <input type="text" placeholder="Subject">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
                 <br>
                  <br>
-                <label>Message</label>
-                <textarea placeholder="Type your message here."></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Type your message here."></textarea>
                 <br>
                 <input type="submit" value="Submit Message" 
                 class="button button-primary float-right" />
