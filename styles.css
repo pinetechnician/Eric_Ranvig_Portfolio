@@ -15,6 +15,11 @@ header {
     border-bottom: 2px solid rgb(227 221 216 / 90%);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h2 {
     font-size: 2rem;
 }
@@ -150,6 +155,32 @@ h2 {
 #contact {
     text-align: center;
     margin-top: 69px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    align-self: flex-start;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    width: auto;
+    height: 100px;
 }
 
 footer {
