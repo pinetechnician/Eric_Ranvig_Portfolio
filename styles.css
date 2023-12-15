@@ -236,16 +236,6 @@ footer {
     color: white;
   }
 
-@media only screen and (min-width: 1025px) {
-    #nav {
-        display: flex;
-        flex-shrink: 1;
-        width: 400px;
-        justify-content: space-between;
-        margin-right: 1.25rem;
-    }
-}
-
 /*iPad pro width*/
 @media only screen and (max-width: 1024px) {
     #nav {
@@ -267,10 +257,10 @@ footer {
         top: 50;
     }
 
-    header a:hover {
+    /*header a:hover {
         background-color: #ddd;
         color: black;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 983px) {
